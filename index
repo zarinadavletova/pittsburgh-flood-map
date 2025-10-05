@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pittsburgh Flood Risk Maps</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 40px; background: #f5f5f5; }
+    h1 { text-align: center; color: #333; }
+    a {
+      display: block;
+      margin: 20px auto;
+      font-size: 20px;
+      text-align: center;
+      color: #007bff;
+      text-decoration: none;
+      background: #fff;
+      width: 300px;
+      padding: 12px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    a:hover { background: #e8f0fe; }
+  </style>
+</head>
+<body>
+  <h1>Pittsburgh Flood Risk Maps</h1>
+  <a href="map_risk_equal.html">🌊 Equal Weights Risk Map</a>
+  <a href="map_risk_popheavy.html">👥 Population-Heavy Risk Map</a>
+</body>
+</html>
